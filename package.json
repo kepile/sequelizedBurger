@@ -1,0 +1,28 @@
+{
+  "name": "sequelizeburger",
+  "version": "1.0.0",
+  "description": "This is a fun restaurant app that lets users devour burgers.  Users can be input the names of burgers they'd like to eat or select from a list of burgers from the menu.  Whenever a user eats a burger, the burger name will move from the menu on the left side of the page to the right side of the page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kepile/sequelizedBurger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kepile/sequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/kepile/sequelizedBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  }
+}
